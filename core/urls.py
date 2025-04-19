@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from . import views
-from decorator_include import decorator_include
+from decorator_include import decorator_include # type: ignore
 from django.contrib.auth.decorators import login_required
 from .decorators import manager_access
 
